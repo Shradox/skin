@@ -1,0 +1,523 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "demo",
+      "password": "demo",
+      "role": "user",
+      "balance": 1000,
+      "inventory": []
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "change-me",
+      "role": "admin",
+      "balance": 10000,
+      "inventory": []
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "name": "Дима в шалаше",
+      "price": 0.33,
+      "items": [
+        [
+          "P250 | Sand Dune (Field-Tested)",
+          70,
+          0.03
+        ],
+        [
+          "MP9 | Storm (Field-Tested)",
+          20,
+          0.05
+        ],
+        [
+          "Glock-18 | Candy Apple (Factory New)",
+          7,
+          0.7
+        ],
+        [
+          "AK-47 | Elite Build (Field-Tested)",
+          2.5,
+          1.5
+        ],
+        [
+          "AK-47 | Redline (Field-Tested)",
+          0.45,
+          15
+        ],
+        [
+          "★ Bayonet | Forest DDPAT (Field-Tested)",
+          0.05,
+          150
+        ]
+      ],
+      "bases": [
+        "AK-47 | Elite Build",
+        "AK-47 | Redline",
+        "Glock-18 | Candy Apple",
+        "MP9 | Storm",
+        "P250 | Sand Dune",
+        "★ Bayonet | Forest DDPAT"
+      ],
+      "winChance": 0.35
+    },
+    {
+      "id": 2,
+      "name": "Квартира Димы",
+      "price": 1.64,
+      "items": [
+        [
+          "USP-S | Cortex (Field-Tested)",
+          45,
+          3
+        ],
+        [
+          "M4A4 | Tooth Fairy (Field-Tested)",
+          33,
+          4
+        ],
+        [
+          "AK-47 | Slate (Field-Tested)",
+          18.8,
+          2
+        ],
+        [
+          "AWP | Neo-Noir (Field-Tested)",
+          3,
+          25
+        ],
+        [
+          "★ Sport Gloves | Superconductor (Field-Tested)",
+          0.15,
+          400
+        ],
+        [
+          "★ Butterfly Knife | Forest DDPAT (Field-Tested)",
+          0.05,
+          250
+        ]
+      ],
+      "bases": [
+        "AK-47 | Slate",
+        "AWP | Neo-Noir",
+        "M4A4 | Tooth Fairy",
+        "USP-S | Cortex",
+        "★ Butterfly Knife | Forest DDPAT",
+        "★ Sport Gloves | Superconductor"
+      ],
+      "winChance": 0.35
+    },
+    {
+      "id": 3,
+      "name": "Мечта Димы",
+      "price": 1.84,
+      "items": [
+        [
+          "Glock-18 | Water Elemental (Field-Tested)",
+          45,
+          2
+        ],
+        [
+          "USP-S | Orion (Field-Tested)",
+          30,
+          4
+        ],
+        [
+          "M4A1-S | Cyrex (Field-Tested)",
+          18.8,
+          6
+        ],
+        [
+          "AWP | Hyper Beast (Field-Tested)",
+          5,
+          25
+        ],
+        [
+          "AK-47 | Vulcan (Field-Tested)",
+          1,
+          30
+        ],
+        [
+          "★ Flip Knife | Doppler (Factory New)",
+          0.2,
+          180
+        ]
+      ],
+      "bases": [
+        "AK-47 | Vulcan",
+        "AWP | Hyper Beast",
+        "Glock-18 | Water Elemental",
+        "M4A1-S | Cyrex",
+        "USP-S | Orion",
+        "★ Flip Knife | Doppler"
+      ],
+      "winChance": 0.35
+    },
+    {
+      "id": 4,
+      "name": "Тайный Дима",
+      "price": 33.78,
+      "items": [
+        [
+          "M4A4 | Desolate Space (Field-Tested)",
+          50,
+          7
+        ],
+        [
+          "AK-47 | Asiimov (Field-Tested)",
+          35,
+          20
+        ],
+        [
+          "AWP | Asiimov (Field-Tested)",
+          12.5,
+          35
+        ],
+        [
+          "AK-47 | Fire Serpent (Field-Tested)",
+          2,
+          250
+        ],
+        [
+          "★ Karambit | Doppler (Factory New)",
+          0.4,
+          500
+        ],
+        [
+          "AWP | Dragon Lore (Battle-Scarred)",
+          0.1,
+          1500
+        ]
+      ],
+      "bases": [
+        "AK-47 | Asiimov",
+        "AK-47 | Fire Serpent",
+        "AWP | Asiimov",
+        "AWP | Dragon Lore",
+        "M4A4 | Desolate Space",
+        "★ Karambit | Doppler"
+      ],
+      "winChance": 0.3
+    },
+    {
+      "id": 5,
+      "name": "Бедность Димы",
+      "price": 4.99,
+      "items": [
+        [
+          "MAC-10 | Neon Rider (Field-Tested)",
+          22,
+          4
+        ],
+        [
+          "Desert Eagle | Blaze (Factory New)",
+          16,
+          60
+        ],
+        [
+          "AK-47 | Redline (Field-Tested)",
+          14,
+          15
+        ],
+        [
+          "M4A4 | Asiimov (Field-Tested)",
+          12,
+          20
+        ],
+        [
+          "USP-S | Kill Confirmed (Field-Tested)",
+          9,
+          25
+        ],
+        [
+          "AWP | Redline (Field-Tested)",
+          8,
+          12
+        ],
+        [
+          "AK-47 | Vulcan (Field-Tested)",
+          6,
+          30
+        ],
+        [
+          "M4A1-S | Hyper Beast (Field-Tested)",
+          5,
+          25
+        ],
+        [
+          "AK-47 | Neon Revolution (Field-Tested)",
+          4,
+          20
+        ],
+        [
+          "AWP | Hyper Beast (Field-Tested)",
+          2,
+          25
+        ],
+        [
+          "★ Sport Gloves | Vice (Field-Tested)",
+          1,
+          1500
+        ],
+        [
+          "★ Butterfly Knife | Slaughter (Field-Tested)",
+          0.5,
+          700
+        ]
+      ],
+      "bases": [
+        "AK-47 | Neon Revolution",
+        "AK-47 | Redline",
+        "AK-47 | Vulcan",
+        "AWP | Hyper Beast",
+        "AWP | Redline",
+        "Desert Eagle | Blaze",
+        "M4A1-S | Hyper Beast",
+        "M4A4 | Asiimov",
+        "MAC-10 | Neon Rider",
+        "USP-S | Kill Confirmed",
+        "★ Butterfly Knife | Slaughter",
+        "★ Sport Gloves | Vice"
+      ],
+      "winChance": 0.3
+    },
+    {
+      "id": 6,
+      "name": "Мегакейс Димы",
+      "price": 150,
+      "items": [
+        [
+          "AK-47 | Asiimov (Field-Tested)",
+          25,
+          20
+        ],
+        [
+          "AWP | Asiimov (Field-Tested)",
+          20,
+          35
+        ],
+        [
+          "M4A4 | Desolate Space (Field-Tested)",
+          15,
+          7
+        ],
+        [
+          "AK-47 | Fire Serpent (Field-Tested)",
+          12,
+          250
+        ],
+        [
+          "★ Karambit | Doppler (Factory New)",
+          8,
+          500
+        ],
+        [
+          "AWP | Medusa (Field-Tested)",
+          6,
+          1200
+        ],
+        [
+          "★ M9 Bayonet | Tiger Tooth (Factory New)",
+          5,
+          600
+        ],
+        [
+          "★ Butterfly Knife | Fade (Factory New)",
+          4,
+          1500
+        ],
+        [
+          "M4A4 | Howl (Field-Tested)",
+          3,
+          2500
+        ],
+        [
+          "★ Specialist Gloves | Crimson Kimono (Field-Tested)",
+          1.5,
+          700
+        ],
+        [
+          "AWP | Dragon Lore (Battle-Scarred)",
+          0.5,
+          1500
+        ]
+      ],
+      "bases": [
+        "AK-47 | Asiimov",
+        "AK-47 | Fire Serpent",
+        "AWP | Asiimov",
+        "AWP | Dragon Lore",
+        "AWP | Medusa",
+        "M4A4 | Desolate Space",
+        "M4A4 | Howl",
+        "★ Butterfly Knife | Fade",
+        "★ Karambit | Doppler",
+        "★ M9 Bayonet | Tiger Tooth",
+        "★ Specialist Gloves | Crimson Kimono"
+      ],
+      "winChance": 0.3
+    },
+    {
+      "id": 7,
+      "name": "Тигуан",
+      "price": 3000,
+      "fixed": [
+        [
+          "AWP | Dragon Lore (Battle-Scarred)",
+          30,
+          1500
+        ],
+        [
+          "Sticker | Boom (Holo)",
+          70,
+          1
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Долги Димы",
+      "price": 1,
+      "bases": [
+        "P250 | Sand Dune",
+        "MP9 | Storm",
+        "Glock-18 | Candy Apple",
+        "SG 553 | Army Sheen",
+        "Nova | Walnut",
+        "MAC-10 | Palm",
+        "UMP-45 | Carbon Fiber",
+        "Tec-9 | Groundwater",
+        "FAMAS | Colony",
+        "Galil AR | Sage Spray",
+        "AK-47 | Elite Build",
+        "M4A1-S | Guardian",
+        "AK-47 | Safari Mesh",
+        "P250 | Franklin"
+      ],
+      "winChance": 0.35
+    },
+    {
+      "id": 9,
+      "name": "Зарплата Димы",
+      "price": 10,
+      "bases": [
+        "AK-47 | Redline",
+        "M4A4 | Asiimov",
+        "AWP | Hyper Beast",
+        "USP-S | Neo-Noir",
+        "M4A1-S | Printstream",
+        "Desert Eagle | Printstream",
+        "AK-47 | Bloodsport",
+        "AWP | Atheris",
+        "Glock-18 | Water Elemental",
+        "AK-47 | Vulcan",
+        "M4A4 | Buzz Kill",
+        "USP-S | Cortex",
+        "P90 | Asiimov",
+        "AK-47 | Phantom Disruptor"
+      ],
+      "winChance": 0.3
+    },
+    {
+      "id": 10,
+      "name": "Кредит Димы",
+      "price": 50,
+      "bases": [
+        "AK-47 | Fire Serpent",
+        "AWP | Asiimov",
+        "M4A4 | Desolate Space",
+        "AK-47 | Neon Revolution",
+        "AK-47 | Hydroponic",
+        "AWP | Containment Breach",
+        "AWP | Neo-Noir",
+        "M4A1-S | Cyrex",
+        "USP-S | Kill Confirmed",
+        "Glock-18 | Fade",
+        "★ Sport Gloves | Vice",
+        "★ Driver Gloves | Crimson Weave",
+        "★ Bayonet | Forest DDPAT",
+        "★ Flip Knife | Doppler"
+      ],
+      "winChance": 0.3
+    },
+    {
+      "id": 11,
+      "name": "Ставка Димы",
+      "price": 100,
+      "bases": [
+        "AWP | Asiimov",
+        "M4A4 | Howl",
+        "AWP | Gungnir",
+        "★ Karambit | Doppler",
+        "★ Butterfly Knife | Slaughter",
+        "★ M9 Bayonet | Tiger Tooth",
+        "★ Sport Gloves | Vice",
+        "★ Specialist Gloves | Crimson Kimono",
+        "AK-47 | Redline",
+        "AK-47 | Bloodsport",
+        "AWP | Hyper Beast",
+        "M4A4 | Neo-Noir",
+        "Desert Eagle | Blaze",
+        "AK-47 | Fire Serpent"
+      ],
+      "winChance": 0.3
+    },
+    {
+      "id": 12,
+      "name": "Дима Миллионер",
+      "price": 500,
+      "bases": [
+        "AWP | Dragon Lore",
+        "M4A4 | Howl",
+        "AK-47 | Gold Arabesque",
+        "AWP | Gungnir",
+        "AK-47 | Fire Serpent",
+        "★ Karambit | Fade",
+        "★ Butterfly Knife | Fade",
+        "★ M9 Bayonet | Doppler",
+        "★ Sport Gloves | Pandora's Box",
+        "★ Specialist Gloves | Fade",
+        "AK-47 | Case Hardened",
+        "AWP | Medusa",
+        "★ Karambit | Doppler",
+        "★ Talon Knife | Fade",
+        "AK-47 | Wild Lotus"
+      ],
+      "winChance": 0.3
+    },
+    {
+      "id": 13,
+      "name": "Нож Дмитрижа",
+      "price": 200,
+      "bases": [
+        "Nova | Hyper Beast",
+        "Nova | Bloomstick",
+        "Nova | Antique",
+        "Nova | Koi",
+        "Nova | Graphite",
+        "Nova | Walnut",
+        "Nova | Candy Apple",
+        "Nova | Predator",
+        "Nova | Sand Dune",
+        "Nova | Ranger",
+        "Nova | Wild Six",
+        "Nova | Rising Skull",
+        "Nova | Toy Soldier",
+        "Nova | Gila",
+        "Nova | Tempest"
+      ],
+      "fixed": [
+        [
+          "★ Butterfly Knife | Gamma Doppler (Factory New)",
+          10,
+          1200
+        ]
+      ]
+    }
+  ],
+  "overrides": {},
+  "audit": []
+}
