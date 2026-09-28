@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "demo",
+      "password": "demo",
+      "role": "user",
+      "balance": 1000,
+      "inventory": []
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "change-me",
+      "role": "admin",
+      "balance": 10000,
+      "inventory": []
+    }
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "name": "Шалаш",
+      "price": 0.33,
+      "items": [
+        [
+          "P250 | Sand Dune (Field-Tested)",
+          70,
+          0.03
+        ],
+        [
+          "MP9 | Storm (Field-Tested)",
+          20,
+          0.05
+        ],
+        [
+          "Glock-18 | Candy Apple (Factory New)",
+          7,
+          0.7
+        ],
+        [
+          "AK-47 | Elite Build (Field-Tested)",
+          2.5,
+          1.5
+        ],
+        [
+          "AK-47 | Redline (Field-Tested)",
+          0.45,
+          15
+        ],
+        [
+          "★ Bayonet | Forest DDPAT (Field-Tested)",
+          0.05,
+          150
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Квартира",
+      "price": 1.64,
+      "items": [
+        [
+          "USP-S | Cortex (Field-Tested)",
+          45,
+          3
+        ],
+        [
+          "M4A4 | Tooth Fairy (Field-Tested)",
+          33,
+          4
+        ],
+        [
+          "AK-47 | Slate (Field-Tested)",
+          18.8,
+          2
+        ],
+        [
+          "AWP | Neo-Noir (Field-Tested)",
+          3,
+          25
+        ],
+        [
+          "★ Sport Gloves | Superconductor (Field-Tested)",
+          0.15,
+          400
+        ],
+        [
+          "★ Butterfly Knife | Forest DDPAT (Field-Tested)",
+          0.05,
+          250
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Мечта",
+      "price": 1.84,
+      "items": [
+        [
+          "Glock-18 | Water Elemental (Field-Tested)",
+          45,
+          2
+        ],
+        [
+          "USP-S | Orion (Field-Tested)",
+          30,
+          4
+        ],
+        [
+          "M4A1-S | Cyrex (Field-Tested)",
+          18.8,
+          6
+        ],
+        [
+          "AWP | Hyper Beast (Field-Tested)",
+          5,
+          25
+        ],
+        [
+          "AK-47 | Vulcan (Field-Tested)",
+          1,
+          30
+        ],
+        [
+          "★ Flip Knife | Doppler (Factory New)",
+          0.2,
+          180
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Тайный",
+      "price": 33.78,
+      "items": [
+        [
+          "M4A4 | Desolate Space (Field-Tested)",
+          50,
+          7
+        ],
+        [
+          "AK-47 | Asiimov (Field-Tested)",
+          35,
+          20
+        ],
+        [
+          "AWP | Asiimov (Field-Tested)",
+          12.5,
+          35
+        ],
+        [
+          "AK-47 | Fire Serpent (Field-Tested)",
+          2,
+          250
+        ],
+        [
+          "★ Karambit | Doppler (Factory New)",
+          0.4,
+          500
+        ],
+        [
+          "AWP | Dragon Lore (Battle-Scarred)",
+          0.1,
+          1500
+        ]
+      ]
+    }
+  ],
+  "overrides": {},
+  "audit": []
+}
